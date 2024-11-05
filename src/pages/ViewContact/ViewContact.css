@@ -1,0 +1,74 @@
+body {
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.searchSort {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 25px;
+    gap: 50px;
+}
+
+.search,
+.sorting {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    flex: 7;
+}
+
+.sorting {
+    flex: 3;
+}
+
+.search input,
+.sorting select {
+    padding: 5px 15px;
+    flex: 1;
+}
+
+.table {
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.actions button,
+.actions a {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    font-family: monospace;
+    color: black;
+    transform: 0.3s;
+}
+
+
+.actions button:hover,
+.actions a:hover {
+    border-bottom: 2px solid black;
+}

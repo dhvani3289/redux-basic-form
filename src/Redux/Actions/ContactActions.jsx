@@ -1,4 +1,4 @@
-import { ADD_CONTACT, DELETE, UPDATE_CONTACT } from "../ActionType";
+import { ADD_CONTACT, DELETE, SORTING, UPDATE_CONTACT } from "../ActionType";
 
 export const contactDetails = (data) => {
     return {
@@ -18,5 +18,12 @@ export const updateContactList = (pos, data) => {
     return {
         type: UPDATE_CONTACT,
         payload: { pos, data }
+    }
+}
+
+export const sortData = (data) => {
+    return {
+        type: SORTING,
+        payload: data
     }
 }

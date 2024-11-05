@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.header {
+    background-color: rgba(232, 232, 156, 0.791);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: darkorchid;
+    font-size: 19px;
+}

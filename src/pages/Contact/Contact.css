@@ -1,0 +1,61 @@
+.bg-image {
+    background-image: url('./src/images/meeting.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+
+.container {
+    max-width: 1235px;
+    margin: 0px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.form input {
+    width: 35%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.form input::placeholder {
+    font-size: 14px;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 17px;
+}
+
+.gender label {
+    text-align: left;
+    color: aliceblue;
+}
+
+.register-btn {
+    background-color: lightskyblue;
+    color: darkblue;
+    text-align: center;
+    cursor: pointer;
+}
